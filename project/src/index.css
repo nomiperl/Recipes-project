@@ -1,0 +1,57 @@
+body {
+  font-family: calibri light;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.window{
+  padding: 5vh;
+  width: 30vw;
+}
+
+#header{
+   position: sticky;
+   top: 0;
+   height: 10vh;
+   box-shadow: 0 0 2vh 0 rgb(175, 174, 174);;
+   z-index: 2;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 7vw;
+   padding-right: 7vw;
+   align-items: center;
+   background-color: white;
+}
+
+#header span:first-of-type{
+  font-size: 4vh;
+}
+
+#globalMenu{
+  width: 15vw;
+  padding: 4vw;
+  background-color: rgb(178, 252, 207);
+  position: absolute;
+}
+
+a{
+  text-decoration: none;
+}
+
+#localMenu{
+  padding: 4vw;
+  text-align: right;
+  display: inline-block;
+}
+
+#login{
+  width: 300px;
+  box-shadow: 0 0 2vh 0 rgb(175, 174, 174);
+  text-align: right;
+}
